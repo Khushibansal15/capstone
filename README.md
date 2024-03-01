@@ -30,7 +30,7 @@ FSIM, or Feature Similarity Index Measure, is a metric used to assess the simila
 
 - **Application**: FSIM is commonly used for testing compressed images to assess the preservation of image quality. However, it is not typically employed for evaluating Generative Adversarial Networks (GANs), which generate images rather than compressing them.
 
-  ###Fawkes for cloaking
+
   
 
 In summary, FSIM offers a unique approach to assessing image similarity, focusing on high-level features and producing quantitative scores. While it is well-suited for evaluating compressed images, its reliance on pre-defined features may limit its applicability in certain contexts such as GAN evaluation.
