@@ -16,11 +16,11 @@ LPIPS stands for Learned Perceptual Image Patch Similarity. It represents a sign
 
 In summary, LPIPS represents a significant advancement in perceptual metrics, offering a more nuanced and accurate evaluation of image quality compared to traditional methods.
 
-# FSIM: Feature Similarity Index Measure
+## FSIM: Feature Similarity Index Measure
 
 FSIM, or Feature Similarity Index Measure, is a metric used to assess the similarity between images. Unlike traditional methods that compare pixel-wise differences, FSIM operates on high-level features. Instead of extracting features from images, FSIM relies on pre-defined features, which are then utilized to generate a quantitative score representing the similarity between images.
 
-## Key Characteristics of FSIM:
+### Key Characteristics of FSIM:
 
 - **High-Level Feature Analysis**: FSIM analyzes images based on high-level features rather than pixel-wise differences, offering a more abstract understanding of image similarity.
 
@@ -29,6 +29,9 @@ FSIM, or Feature Similarity Index Measure, is a metric used to assess the simila
 - **Pre-Defined Features**: Unlike some other metrics that extract features directly from images, FSIM depends on pre-defined features, which may limit its flexibility but can also provide consistent and reliable results.
 
 - **Application**: FSIM is commonly used for testing compressed images to assess the preservation of image quality. However, it is not typically employed for evaluating Generative Adversarial Networks (GANs), which generate images rather than compressing them.
+
+  ###Fawkes for cloaking
+  
 
 In summary, FSIM offers a unique approach to assessing image similarity, focusing on high-level features and producing quantitative scores. While it is well-suited for evaluating compressed images, its reliance on pre-defined features may limit its applicability in certain contexts such as GAN evaluation.
 
